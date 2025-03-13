@@ -43,7 +43,7 @@ let checkWin = () => {
                 boxes.forEach((e) => {
                     e.disabled = true;
                 })
-                msgBox.innerHTML = `<div class="msg">Player with "${pos1}" is the Winner! 🥳🥳</div>
+                msgBox.innerHTML = `<div class="msg">Player having "${pos1}" is the Winner! 🥳🥳</div>
                                     <button class="newGame styleBtn">New Game</button>`;
                 msgBox.classList.remove("hidden");
                 resetBtn.classList.add("hidden")
